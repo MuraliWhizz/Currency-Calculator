@@ -1,3 +1,22 @@
+# Currency Converter App
+
+This is a simple currency converter app built using React Native. The app allows users to input an amount in Indian Rupees (₹) and convert it into a variety of other currencies using predefined conversion rates.
+
+## Features
+
+- Convert from Indian Rupees (₹) to different currencies.
+- Provides haptic feedback when buttons are pressed (on supported devices).
+- Displays the result in a formatted way with the currency symbol.
+- Error handling using Snackbar when invalid or empty input is provided.
+- Supports custom styling and currency buttons for different conversion options.
+
+## Technologies Used
+
+- **React Native:** The framework for building the user interface.
+- **React Native Haptic Feedback:** To trigger vibration feedback on button presses.
+- **Snackbar:** To show error messages or feedback for the user.
+- **FlatList:** For rendering a grid of currency buttons.
+  
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
